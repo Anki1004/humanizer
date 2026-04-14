@@ -10,8 +10,8 @@ spacy>=3.7.0,<4.0.0
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
 
 # PDF Detection page - AI model (CPU-only torch, ~200MB instead of 2GB)
-torch==2.6.0+cpu
-transformers==4.49.0
+torch==2.11.0+cpu
+transformers>=4.49.0
 sentencepiece==0.2.0
 huggingface-hub==0.29.1
 safetensors==0.5.2
