@@ -25,6 +25,6 @@ pillow
 
 # Data & charts
 pandas
-altair
+altair==5.4.1
 numpy
 pyarrow
